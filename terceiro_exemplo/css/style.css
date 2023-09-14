@@ -1,0 +1,100 @@
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+nav{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0px 0px 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section{
+    padding: 40px;
+}
+
+.escola{
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    color: #333;
+    text-align: center;
+}
+
+.escola-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.escola.h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+   text-shadow: 1px 1px 1px rgba(10,10,10);
+}
+.escola a{
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.escola p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgba(10,10,10);
+    text-shadow: 1px 1px 1px rgba(10,10,10);
+}
+
+.btn.aprenda{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn.aprenda:hover{
+    background-color: #555;
+}
