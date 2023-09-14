@@ -54,3 +54,22 @@ footer{
     text-align: center;
     padding: 10px 0px;
 }
+
+p{
+    text-align: center;
+    color: #333;
+}
+h3{
+    text-align: center;
+}
+
+input {
+    margin: 0% auto;
+    display: block;
+    text-align: center;
+    align-self: start;
+    width: 100px;
+    background-color: #dfd3d3;
+
+   
+}
