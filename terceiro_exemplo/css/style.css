@@ -80,11 +80,11 @@ section{
 .escola p{
     font-size: 18px;
     margin-bottom: 30px;
-    color: rgba(10,10,10);
+    color: rgba(250,249,249);
     text-shadow: 1px 1px 1px rgba(10,10,10);
 }
 
-.btn.aprenda{
+.btn-aprenda{
     display: inline-block;
     background-color: #333;
     color: #fff;
@@ -95,6 +95,93 @@ section{
     transition: background-color 0.3s;
 }
 
-.btn.aprenda:hover{
+.btn-aprenda:hover{
     background-color: #555;
+}
+
+.cursos{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cursos h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.cursos-cad{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+.curso-card p{
+    color: #333;
+
+}
+
+.curso-card:hover{
+    transform: translateY(-5px);
+}
+
+.curso-card img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso-card h3,p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.about{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.about p{
+    color: #333;
+}
+.contato{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contato h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p, span{
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+
+footer{
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0px;
+}
+.depoimento{
+    background-color: #333;
+}
+
+.depoimento img{
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    max-width: 30%;
+    font-weight: auto;
+}
+
+.depoimento h2, h3, p{
+    color: #fff;
+    text-align: center;
 }
