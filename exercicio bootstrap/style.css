@@ -1,0 +1,11 @@
+
+img {
+    margin: 0 auto;
+    display: block;
+    margin-top: auto;
+    width: auto;
+    max-height: 500px;
+}
+body{
+    background-color: #ccc;
+}
